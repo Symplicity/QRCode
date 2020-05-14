@@ -283,7 +283,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D248F021A751C3700E44E6B /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 4D248F021A751C3700E44E6B /* Build configuration list for PBXProject "QRCodeGenerator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -584,7 +584,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGenerator.app/QRCodeGenerator";
 			};
 			name = Debug;
 		};
@@ -598,14 +598,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGenerator.app/QRCodeGenerator";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D248F021A751C3700E44E6B /* Build configuration list for PBXProject "Example" */ = {
+		4D248F021A751C3700E44E6B /* Build configuration list for PBXProject "QRCodeGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D248F241A751C3700E44E6B /* Debug */,

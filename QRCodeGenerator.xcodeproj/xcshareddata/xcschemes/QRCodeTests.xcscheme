@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D248F301A751C7800E44E6B"
-               BuildableName = "QRCode.framework"
-               BlueprintName = "QRCode"
-               ReferencedContainer = "container:Example.xcodeproj">
+               BlueprintIdentifier = "4D248F3A1A751C7800E44E6B"
+               BuildableName = "QRCodeTests.xctest"
+               BlueprintName = "QRCodeTests"
+               ReferencedContainer = "container:QRCodeGenerator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,8 +26,16 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D248F3A1A751C7800E44E6B"
+            BuildableName = "QRCodeTests.xctest"
+            BlueprintName = "QRCodeTests"
+            ReferencedContainer = "container:QRCodeGenerator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -36,21 +44,10 @@
                BlueprintIdentifier = "4D248F3A1A751C7800E44E6B"
                BuildableName = "QRCodeTests.xctest"
                BlueprintName = "QRCodeTests"
-               ReferencedContainer = "container:Example.xcodeproj">
+               ReferencedContainer = "container:QRCodeGenerator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D248F301A751C7800E44E6B"
-            BuildableName = "QRCode.framework"
-            BlueprintName = "QRCode"
-            ReferencedContainer = "container:Example.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,14 +62,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D248F301A751C7800E44E6B"
-            BuildableName = "QRCode.framework"
-            BlueprintName = "QRCode"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "4D248F3A1A751C7800E44E6B"
+            BuildableName = "QRCodeTests.xctest"
+            BlueprintName = "QRCodeTests"
+            ReferencedContainer = "container:QRCodeGenerator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,10 +78,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D248F301A751C7800E44E6B"
-            BuildableName = "QRCode.framework"
-            BlueprintName = "QRCode"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "4D248F3A1A751C7800E44E6B"
+            BuildableName = "QRCodeTests.xctest"
+            BlueprintName = "QRCodeTests"
+            ReferencedContainer = "container:QRCodeGenerator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
