@@ -284,10 +284,9 @@
 			};
 			buildConfigurationList = 4D248F021A751C3700E44E6B /* Build configuration list for PBXProject "QRCodeGenerator" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
